@@ -1,0 +1,310 @@
+/* -------------RESETS------------- */
+/*Resets are used for overwriting default html tag properties*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  font,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+    list-style: none;
+  }
+  html {
+    font-size: 62.5%;
+    height: 100%;
+  }
+  body {
+    color: #2b2b2b;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    line-height: 1.4;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section,
+  time {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  .header {
+    padding: 50px 32rem 0px 32rem;
+  }
+
+  .header .preheader {
+    text-align: center;
+    background-color: #2b2b2b;
+  }
+
+  .header .preheader a{
+    color: aliceblue;
+    text-decoration: underline;
+  }
+  
+  .header__logo {
+    padding: 5px;
+    text-align: center;
+    background:  #2b2b2b;
+  }
+  .header__logo img{
+    width: 32%;
+  }
+
+  .header .header__btn {
+    background-color: pink;
+  }
+
+  .header .food a{
+        color: black;
+        margin: 0 0 0 5px;
+        justify-content: end;
+  }
+
+  
+
+  .header .callback_btn {
+    text-align: center; 
+    display: block;
+    /* padding: 8px 20px 8px 20px; */
+    padding: 0 5rem 2rem 2rem;
+    background: white;
+  }
+  .header .callback_btn a{
+    padding: 8px 20px 8px 20px;
+    color: black;
+    font-size: large;
+    margin-left: 10px;
+    background-color: pink;
+    border: 2px solid #2b2b2b;
+    border-radius: 8px;
+  }
+
+  .header .callback_btn {
+    background-color: pink;
+  }
+
+  .header .contact {
+    text-align: right;
+  }
+
+.Happy {
+    background-color: #2b2b2b;
+}
+
+  .header .happytext {
+    text-align: center;
+    margin: 5px;
+   ;
+  }
+    .header .happytext p{
+    color: aliceblue;
+    }
+
+  .header .happytext h1{
+    font-size:3rem;
+    color: pink;
+  }
+
+  .choosebg{
+    background-color: #2b2b2b;
+    text-align: center;
+  }
+  .choose h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: pink;
+  }
+.header .Pick {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header .pick__card {
+    max-width: 80%;
+    text-align: center;
+    display: block;
+    background-color: #252525;
+    height: 33rem;
+}
+    
+
+.pick__card h1 {
+   color: aliceblue;
+}
+
+.pick__card p{
+color: aliceblue;
+font-size: small;
+}
+
+.pick__card h2{
+    color: aliceblue;
+}
+
+.header .price {
+    flex-direction: column;
+}
+
+.header .price a{
+    color: pink;
+    background-color:#252525;
+    border: 3.5px solid pink;
+    border-radius: 5px;
+    font-size: smaller;
+    padding: 5px 10px 5px 10px;
+}
+
+.new {
+text-align: center;
+background-color: #2b2b2b;
+    padding-top: 5rem;
+    color: pink;
+    font-size: 30px;
+}
+
+.sushi {
+    background-color:#252525;
+    color: whitesmoke;
+}
+
+.sushi img{
+    width: 40%;
+    border-radius: 80px;
+    text-align: left;
+}
+
+
+.sushi h2{
+    color: pink;
+    font-size: larger;
+}
+
+.sushi .new_price h2{
+color: white;
+}
+
+.sushi .new_price a{
+    color: pink;
+    background-color:#252525;
+    border: 3.5px solid pink;
+    border-radius: 5px;
+    font-size: smaller;
+    padding: 5px 10px 5px 10px;
+}
+
+.all {
+    padding: 5rem;
+    background-color: #252525;
+}
+
+.all h1{
+    text-align: center;
+    background-color: #252525;
+    color: pink;
+    
+    font-size: 28px;
+}
+
+.all_img .fgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.all_img .sgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.all_img img {
+    opacity: 0;
+}
+
+.all_img img:hover{
+    opacity: 1.0;
+}
+
